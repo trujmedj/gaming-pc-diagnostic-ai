@@ -1,0 +1,58 @@
+{
+  "dominio": "Diagnóstico de Configuración de Videojuegos (Optimización de FPS)",
+  "entidad_diagnostico": "PC Gaming",
+  "sintomas": [
+    {"id": "s1", "descripcion": "Bajos FPS constantes (bajo el umbral deseado)"},
+    {"id": "s2", "descripcion": "Stuttering (tirones o micro-cortes)"},
+    {"id": "s3", "descripcion": "Caídas drásticas de FPS en zonas concurridas"},
+    {"id": "s4", "descripcion": "Texturas que tardan en cargar (Popping)"},
+    {"id": "s5", "descripcion": "El juego se cierra inesperadamente (Crash a escritorio)"}
+  ],
+  "observables_categoricos": [
+    {
+      "id": "oc1",
+      "etiqueta": "Resolución de juego",
+      "valores": ["1080p", "1440p", "4K", "Otra"]
+    },
+    {
+      "id": "oc2",
+      "etiqueta": "Calidad Gráfica General",
+      "valores": ["Baja", "Media", "Alta", "Ultra"]
+    },
+    {
+      "id": "oc3",
+      "etiqueta": "Ray Tracing",
+      "valores": ["Desactivado", "Activado (Bajo)", "Activado (Alto)"]
+    },
+    {
+      "id": "oc4",
+      "etiqueta": "Tecnología de Escalado",
+      "valores": ["Ninguna", "DLSS", "FSR", "XeSS"]
+    },
+    {
+      "id": "oc5",
+      "etiqueta": "Tipo de almacenamiento principal",
+      "valores": ["SSD NVMe M.2", "SSD SATA", "HDD (Disco mecánico)"]
+    }
+  ],
+  "observables_cuantitativos": [
+    {
+      "id": "oq1",
+      "etiqueta": "Temperatura media GPU (°C)",
+      "tipo": "entero",
+      "rango": [30, 110]
+    },
+    {
+      "id": "oq2",
+      "etiqueta": "Temperatura media CPU (°C)",
+      "tipo": "entero",
+      "rango": [30, 110]
+    },
+    {
+      "id": "oq3",
+      "etiqueta": "Memoria RAM del sistema (GB)",
+      "tipo": "entero",
+      "rango": [4, 128]
+    }
+  ]
+}
