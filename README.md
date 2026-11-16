@@ -40,5 +40,5 @@ Python 3 · PyQt6 · Ollama · Llama 3 · JSON
    ```bash
    python main.py
    ```
-
+## Team
 Developed as a team project by José Trujillo, Sergio and Jorge.
