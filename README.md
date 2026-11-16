@@ -19,8 +19,8 @@ Built with **Python** and **PyQt6** as a university project for the Computer Eng
 The application follows the **Model-View-Controller** pattern:
 
 - Model: File `mvc/model.py`. Loads the domain configuration, stores the user's input and talks to Ollama.
-- View: File `mvc/view.py`. PyQt6 main window and dialogs, generated from the configuration
-- Controller: File `mvc/controller.py`. Connects the UI events to the model and runs the AI request in a background thread
+- View: File `mvc/view.py`. PyQt6 main window and dialogs, generated from the configuration.
+- Controller: File `mvc/controller.py`. Connects the UI events to the model and runs the AI request in a background thread.
 
 ## Tech stack
 
