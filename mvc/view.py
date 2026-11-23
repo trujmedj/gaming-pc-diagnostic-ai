@@ -93,7 +93,7 @@ class VentanaJustificacion(QDialog):
         layout.addWidget(btn_cerrar)
 
     def actualizar_datos(self, justificacion_texto):
-                self.texto_justificacion.setMarkdown(justificacion_texto)
+        self.texto_justificacion.setMarkdown(justificacion_texto)
 
 class VentanaPDFs(QDialog):
     def __init__(self, parent=None):
