@@ -34,15 +34,21 @@ Python 3 · PyQt6 · Ollama · Llama 3 · JSON
 
 ## Getting started
 
-1. Install [Ollama](https://ollama.com/) and download the model:
+These steps are for Linux (Ubuntu/Debian).
+
+1. **Install Ollama** and download the Llama 3 model (about 4.7 GB):
    ```bash
+   curl -fsSL https://ollama.com/install.sh | sh
    ollama pull llama3
    ```
-2. Install the Python dependencies:
+2. **Create a virtual environment** and install the Python dependencies:
    ```bash
+   sudo apt install python3-venv libxcb-cursor0
+   python3 -m venv .venv
+   source .venv/bin/activate
    pip install PyQt6 ollama
    ```
-3. Make sure the Ollama server is running, then start the app from the project folder:
+3. **Start the app** from the project folder (the Ollama service must be running):
    ```bash
    python main.py
    ```
