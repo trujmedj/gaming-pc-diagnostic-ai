@@ -14,6 +14,12 @@ Built with **Python** and **PyQt6** as a university project for the Computer Eng
 - **Configurable domain:** the symptoms and inputs are not hard-coded. The interface is generated dynamically from `config_dominio.json`, so the tool can be adapted to another diagnostic domain without touching the UI code.
 - **Detailed explanation window** with the full reasoning returned by the model.
 
+## Screenshots
+
+| Analysis running in the background | AI diagnosis report |
+| --- | --- |
+| ![Analysis in progress](docs/screenshot-loading.png) | ![AI diagnosis report](docs/screenshot-diagnosis.png) |
+
 ## Architecture
 
 The application follows the **Model-View-Controller** pattern:
